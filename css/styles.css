@@ -55,21 +55,39 @@ address{ font-style: normal;}
 .footer-link:focus {
     color: var(--bt-nav-cl);
 }
-
+.conteiner{
+    width: 1200px;
+}
 /*header*/
-
+.header-nav,
+.list{
+    display: flex;
+}
 .header-logo{
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: var(--logo-secondary-cl)}
+color: var(--logo-secondary-cl);
+margin-left: 215px;
+padding-top: 24px;
+padding-bottom: 25px;
+padding-right: 0px;
+}
+.logo-cl{color: var(--logo-cl);
+}
 
-.logo-cl{color: var(--logo-cl) }
+.header-item{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 82px;
+    
+}
 
 .header-link,
 .header-link-contact{
+    background-color: aqua;
     font-weight: 500;
     line-height: 1.14 ;
     letter-spacing: 0.02em;
