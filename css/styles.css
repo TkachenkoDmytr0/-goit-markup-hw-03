@@ -335,6 +335,7 @@ background: var(--bt-cl);
 }
 .projects-item{
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 .projects-title{
     padding-left: 0px;
