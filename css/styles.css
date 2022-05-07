@@ -52,7 +52,18 @@ address{ font-style: normal;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+.ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+   padding: 0px;
+   margin: 0px;
+}
 
 
 /*nav*/
@@ -229,9 +240,6 @@ color: var(--text-black-cl);
 /*команда*/
 .team{
     background-color: var(--team-background-cl);
-    border-top: #000000;
-    border-top-width: 1px;
-    border-top-style: solid;
 }
 .team-title{
     margin-bottom: 50px;
@@ -269,6 +277,8 @@ color: var(--text-black-cl);
     line-height: 1.18;
     text-align: center;
     color: var(--paragraf-color);
+
+    margin-bottom: 30px;
 }
 /*footer*/
 .footer{
