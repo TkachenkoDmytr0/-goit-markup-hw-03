@@ -329,11 +329,6 @@ p {
     background-color: var(--hero-background-cl);
 }
 
-.footer-address {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -341,6 +336,8 @@ p {
     line-height: 1.19;
     color: var(--background-cl-body);
 
+    display: block;
+    padding-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -354,6 +351,7 @@ p {
 
 .footer-item:last-child {
     margin-bottom: 0px;
+    padding-bottom: 60px;
 }
 
 .footer-link {
