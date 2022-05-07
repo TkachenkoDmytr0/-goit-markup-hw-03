@@ -361,21 +361,25 @@ background: var(--bt-cl);
 .projects-item:nth-child(3n+1){
     margin-left: 0px;
 }
+
 .projects-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-black-cl);
     padding-left: 0px;
     margin-top: 20px;
     margin-bottom: 4px;
-}
-.projects-title{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--text-black-cl)
+    margin-left: 24px;  
+
 }
 .projects-text{
 font-style: normal;
 font-size: 16px;
 line-height: 1.87;
-color: var(--border-line);
+color: var(--paragraf-color);
+
+margin-left: 24px;
+margin-bottom: 20px;
 }
