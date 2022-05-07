@@ -250,10 +250,6 @@ p {
 }
 
 /*публикация работ*/
-.work- {
-    margin: auto;
-}
-
 .work-title,
 .team-title {
     font-weight: 700;
@@ -304,11 +300,6 @@ p {
 
 }
 
-/* .team-images{
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-        border-bottom-color: #000000;
-} */
 .team-item:first-child {
     margin-left: 0px;
 }
@@ -348,9 +339,9 @@ p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    color: var(--background-cl-body);
 
     margin-bottom: 20px;
-    color: var(--background-cl-body);
 }
 
 .logo-cl {
@@ -383,6 +374,7 @@ p {
 .servise-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
 }
 
 .servise-item {
@@ -426,7 +418,7 @@ p {
 .projects-list {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0px;
+    justify-content: center;
 }
 
 .projects-item {
