@@ -12,6 +12,8 @@
 --bt-cl-secondary:#188CE8;
 --team-background-cl:#F5F4FA;
 --footer-link-cl: rgba(255, 255, 255, 0.6);
+--border-line:#EEEEEE;
+--header-line:#ECECEC;
 
 }
 body
@@ -66,6 +68,11 @@ address{ font-style: normal;
 }
 
 /*header*/
+.header{
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: var(--header-line);
+}
 .header-nav{
     display: flex;
     align-items: center;
@@ -222,18 +229,29 @@ color: var(--text-black-cl);
 /*команда*/
 .team{
     background-color: var(--team-background-cl);
+    border-top: #000000;
+    border-top-width: 1px;
+    border-top-style: solid;
 }
 .team-title{
     margin-bottom: 50px;
 }
 .team-list{
     display: flex;
+    justify-content: center;
     padding-left: 0px;
 }
-.team-images{
+.team-item{
+    background-color: var(--background-cl-body);
     margin-left: 30px;
+
 }
-.team-images:first-child{
+/* .team-images{
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #000000;
+} */
+.team-item:first-child{
     margin-left: 0px;
 }
 .team-name{
@@ -334,8 +352,14 @@ background: var(--bt-cl);
     padding-left: 0px;
 }
 .projects-item{
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--border-line);
     margin-left: 30px;
     margin-bottom: 30px;
+}
+.projects-item:nth-child(3n+1){
+    margin-left: 0px;
 }
 .projects-title{
     padding-left: 0px;
@@ -353,5 +377,5 @@ color: var(--text-black-cl)
 font-style: normal;
 font-size: 16px;
 line-height: 1.87;
-color: var(--paragraf-color);
+color: var(--border-line);
 }
