@@ -11,8 +11,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
 </head>
 
 <body>
@@ -23,7 +26,7 @@
                 <ul class="header-list list">
                     <li class="header-item"><a class="header-link link accent" href="./index.html">Студия</a></li>
                     <li class="header-item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="header-link link" href="#address">Контакты</a></li>
+                    <li class="header-item"><a class="header-link link" href="#">Контакты</a></li>
                 </ul>
 
 
@@ -39,12 +42,10 @@
     </header>
     <main>
         <!--герой-->
-        <section class="hero section">
-            <div class="conteiner">
-                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="hero-bt" type="button"><span class="hero-bt-act">Заказать услугу</span> </button>
-            </div>
-        </section>
+        <div class="conteiner hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-bt" type="button">Заказать услугу</button>
+        </div>
         <!--особенности-->
         <section class="peculiarities section">
             <div class="conteiner">
@@ -100,30 +101,38 @@
                 <ul class="team-list list">
                     <li class="team-item"><img class="team-images" src="./images/team/team.jpg" alt="Игорь Демьяненко"
                             width="270" height="260">
-                        <h3 class="team-name">Игорь Демьяненко</h3>
-                        <p lang="en" class="team-text">Product Designer</p>
+                        <div class="team-box">
+                            <h3 class="team-name">Игорь Демьяненко</h3>
+                            <p lang="en" class="team-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item"><img class="team-images" src="./images/team/team2.jpg" alt="Ольга Репина"
                             width="270" height="260">
-                        <h3 class="team-name">Ольга Репина</h3>
-                        <p lang="en" class="team-text">Frontend Developer</p>
+                        <div class="team-box">
+                            <h3 class="team-name">Ольга Репина</h3>
+                            <p lang="en" class="team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item"><img class="team-images" src="./images/team/team3.jpg" alt="Николай Тарасов"
                             width="270" height="260">
-                        <h3 class="team-name">Николай Тарасов</h3>
-                        <p lang="en" class="team-text">Marketing</p>
+                        <div class="team-box">
+                            <h3 class="team-name">Николай Тарасов</h3>
+                            <p lang="en" class="team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item"><img class="team-images" src="./images/team/team4.jpg" alt="Михаил Ермаков"
                             width="270" height="260">
-                        <h3 class="team-name">Михаил Ермаков</h3>
-                        <p lang="en" class="team-text">UI Designer</p>
+                        <div class="team-box">
+                            <h3 class="team-name">Михаил Ермаков</h3>
+                            <p lang="en" class="team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
 
-    <footer class="footer" id="address">
+    <footer class="footer">
         <div class="conteiner">
             <a class="footer-logo link" href="./index.html"><span class="logo-cl">Web</span>Studio</a>
             <address class="footer-address">
