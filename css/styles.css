@@ -124,13 +124,12 @@ img {
 .header-list {
     display: flex;
     padding: 0px;
-    margin-left: 82px;
+    margin-left: 93px;
 }
 
 .header-list-contact {
     display: flex;
     margin-left: auto;
-    padding-left: 0%;
 }
 
 .header-item {
@@ -180,6 +179,7 @@ img {
     text-transform: uppercase;
     color: var(--text-white-cl);
 
+    width: 696px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -442,9 +442,8 @@ img {
     padding-bottom: 20px;
     padding-right: 24px;
 
-    border-width: 1px;
-    border-style: solid;
-    border-color: var(--border-line);
+    border: 1px solid var(--border-line);
+    border-top: none;
 
 }
 
